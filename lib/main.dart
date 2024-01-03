@@ -26,7 +26,6 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     WordController controller = Get.put(WordController());
-    
 
     return Scaffold(
         body: Center(
